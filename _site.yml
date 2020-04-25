@@ -10,6 +10,8 @@ navbar:
       href: Chapter03.html
     - text: "Chapter 4"
       href: Chapter04.html
+    - text: "Chapter 5"
+      href: Chapter05.html
 output_dir: "."
 output:
   html_document:
