@@ -1,17 +1,39 @@
 name: "R Markdown Websites Tutorial"
 navbar:
-  title: "TITLE HERE"
+  title: "Website Title"
   left:
     - text: "Chapter 1"
+      icon: fa-user    
       href: Chapter01.html
     - text: "Chapter 2"
+      icon: fa-check-circle    
       href: Chapter02.html
     - text: "Chapter 3"
+      icon: fa-check-circle    
       href: Chapter03.html
     - text: "Chapter 4"
+      icon: fa-check-circle    
       href: Chapter04.html
     - text: "Chapter 5"
+      icon: fa-check-circle    
       href: Chapter05.html
+    - text: "More"
+      icon: fa-gear
+      menu:
+        - text: "Heading 1"
+        - text: "Chapter 1"
+          href: Chapter01.html
+        - text: "Chapter 2"
+          href: Chapter02.html
+        - text: "---------"
+        - text: "Heading 2"
+        - text: "Chapter 3"
+          href: Chapter03.html
+        - text: "Chapter 4"
+          href: Chapter04.html
+  right:
+    - icon: fa-github fa-lg
+      href: https://github.com/
 output_dir: "."
 output:
   html_document:

@@ -23,6 +23,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -268,28 +270,79 @@ $(document).ready(function () {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">TITLE HERE</a>
+      <a class="navbar-brand" href="index.html">Website Title</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
-  <a href="Chapter01.html">Chapter 1</a>
+  <a href="Chapter01.html">
+    <span class="fa fa-user"></span>
+     
+    Chapter 1
+  </a>
 </li>
 <li>
-  <a href="Chapter02.html">Chapter 2</a>
+  <a href="Chapter02.html">
+    <span class="fa fa-check-circle"></span>
+     
+    Chapter 2
+  </a>
 </li>
 <li>
-  <a href="Chapter03.html">Chapter 3</a>
+  <a href="Chapter03.html">
+    <span class="fa fa-check-circle"></span>
+     
+    Chapter 3
+  </a>
 </li>
 <li>
-  <a href="Chapter04.html">Chapter 4</a>
+  <a href="Chapter04.html">
+    <span class="fa fa-check-circle"></span>
+     
+    Chapter 4
+  </a>
 </li>
 <li>
-  <a href="Chapter05.html">Chapter 5</a>
+  <a href="Chapter05.html">
+    <span class="fa fa-check-circle"></span>
+     
+    Chapter 5
+  </a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fa fa-gear"></span>
+     
+    More
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li class="dropdown-header">Heading 1</li>
+    <li>
+      <a href="Chapter01.html">Chapter 1</a>
+    </li>
+    <li>
+      <a href="Chapter02.html">Chapter 2</a>
+    </li>
+    <li class="divider"></li>
+    <li class="dropdown-header">Heading 2</li>
+    <li>
+      <a href="Chapter03.html">Chapter 3</a>
+    </li>
+    <li>
+      <a href="Chapter04.html">Chapter 4</a>
+    </li>
+  </ul>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        
+        <li>
+  <a href="https://github.com/">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
@@ -305,6 +358,14 @@ $(document).ready(function () {
 </div>
 
 
+<hr />
+<p>Good tutorials <br></p>
+<ul>
+<li><p><a href="https://github.com/jules32/rmarkdown-website-tutorial" class="uri">https://github.com/jules32/rmarkdown-website-tutorial</a> (that this template was forked from) <br></p></li>
+<li><p><a href="https://garrettgman.github.io/rmarkdown/rmarkdown_websites.html" class="uri">https://garrettgman.github.io/rmarkdown/rmarkdown_websites.html</a> <br></p></li>
+<li><p><a href="https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html#site-navigation" class="uri">https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html#site-navigation</a></p></li>
+</ul>
+<hr />
 <hr />
 <p>It’s possible to create well-designed websites for free using <a href="http://rmarkdown.rstudio.com/">RStudio’s R Markdown</a> and hosting them on <a href="http://github.com">Github</a>. This is very new and incredibly cool. It is a really powerful way to communicate science using the same reproducible workflow you use for your analyses and collaborations.</p>
 <p><strong><em>Creating websites with R Markdown can be done without knowing R or HTML, CSS, etc,</em></strong> and that’s where we’ll start. However, R Markdown integrates with these tools so the more you know the more complex and beautiful your website can be. This tutorial borrows heavily from a lot of great tutorials and resources you should check out too – there are links throughout.</p>
